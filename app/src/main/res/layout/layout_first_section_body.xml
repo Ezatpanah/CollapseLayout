@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+    android:background="@color/background800"
+  android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sample first title"
+          android:textColor="@color/white_87"
+          />
+
+      <RadioGroup
+          android:id="@+id/rdo_group"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+
+
+        <RadioButton
+            android:id="@+id/rdo_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Option 1"
+            android:textColor="@color/white_87"
+            />
+
+        <RadioButton
+            android:id="@+id/rdo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Option 2"
+            android:textColor="@color/white_87"
+            />
+
+        <RadioButton
+            android:id="@+id/rdo_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Option 3"
+            android:textColor="@color/white_87"
+            />
+
+        <RadioButton
+            android:id="@+id/rdo_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Option 4"
+            android:textColor="@color/white_87"
+            />
+      </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

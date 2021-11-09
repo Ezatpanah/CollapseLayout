@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_first_section_title"
+        app:expandable_secondLayout="@layout/layout_first_section_body"
+        app:expandable_spinner_color="@color/md_blue_100" />
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_second_section_title"
+        app:expandable_secondLayout="@layout/layout_second_section_body"
+        app:expandable_spinner_color="@color/md_blue_100" />
+
+    <com.skydoves.expandablelayout.ExpandableLayout
+        android:id="@+id/expandable2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandable_duration="200"
+        app:expandable_isExpanded="false"
+        app:expandable_parentLayout="@layout/layout_third_section_title"
+        app:expandable_secondLayout="@layout/layout_third_section_body"
+        app:expandable_spinner_color="@color/md_blue_100" />
+
+
+</LinearLayout>
